@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -s $(echo $CFILE | sed 's/\.c$/.s/')
+gcc -c $CFILE -S $(echo $CFILE | sed 's/\.c$/.s/')
