@@ -1,12 +1,12 @@
 /*
- *This program prints a number
+ *This program prints a number and checks the conditions
  *Author:issaevis
  */
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Prints number, tells if its positive or negative
+ * main - Prints a random number and checks the conditions
  * Return: Will return 0 if everything went well
  */
 
