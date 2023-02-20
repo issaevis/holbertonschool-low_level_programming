@@ -1,12 +1,12 @@
 /*
- *This program prints the alphabet and \n
+ *This program prints single digits from 0 to 9
  *Author:issaevis
  */
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Prints a char and a new line excluding q and e
+ * main - Prints a ints and a new line
  * Return: Will return 0 if everything went well
  */
 
