@@ -4,6 +4,9 @@
 /**
  * add- adds two numbers
  *
+ * @n1: first parameter we get from main
+ * @n2: second parameter we get from main
+ *
  * Return: returns an int
  */
 
