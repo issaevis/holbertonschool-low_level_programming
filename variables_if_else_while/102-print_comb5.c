@@ -18,20 +18,29 @@ int main(void)
 	{
 		for (n2 = 0 ; n2 <= 9 ; n2++)
 		{
-			for (n3 = 0 ; n3 <= 9 ; n3++)
+			for (n3 = n1 ; n3 <= 9 ; n3++)
 			{
-				for (n4 = 0 ; n4 <= 9 ; n4++)
+				for (n4 = n2 + 1; n4 <= 9 ; n4++)
 				{
-				
-					putchar('0' + n1);
-					putchar('0' + n2);
-					putchar(' ');
-					putchar('0' + n3);
-					putchar('0' + n4);
+					if (n1 == 9 && n2 == 9 && n3 == 9 && n4 == 9)
+						return (0);
+					else
+					{
+						putchar('0' + n1);
+						putchar('0' + n2);
+						putchar(' ');
+						putchar('0' + n3);
+						putchar('0' + n4);
+					}
+					if (n1 == 9 && n2 == 8 && n3 == 9 && n4 == 9)
+						putchar('\n');
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 	}
-
-	return (0);
 }
