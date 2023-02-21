@@ -1,8 +1,10 @@
-/**
+/*
  *This program prints _putchar
  *Author:issaevis
  */
+
 #include "main.h"
+
 /**
  * main - Prints a string and a new line after
  * Return: Will return 0 if everything went well
