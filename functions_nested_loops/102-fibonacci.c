@@ -9,30 +9,30 @@
 
 int main(void)
 {
-        int i;
-        long long int nextNum ,num1 = 0, num2 = 1;
+	int i;
+	long int nextNum, num1 = 0, num2 = 1;
 
-        for (i = 1; i <= 50; i++)
-        {
-                if (i <= 1)
-                {
-                        nextNum = i;
-                }
-                else
-                {
-                        nextNum = num1 + num2;
-                        num1 = num2;
-                        num2 = nextNum;
-                }
+	for (i = 1; i <= 50; i++)
+	{
+		if (i <= 1)
+		{
+			nextNum = i;
+		}
+		else
+		{
+			nextNum = num1 + num2;
+			num1 = num2;
+			num2 = nextNum;
+		}
 		if (nextNum == 12586269025)
 		{
-			printf("%lld\n", nextNum);
+			printf("%ld\n", nextNum);
 			return (0);
 		}
-                printf("%lld, ", nextNum);
-        }
-        printf("\n");
-        return (0);
+		printf("%ld, ", nextNum);
+	}
+	printf("\n");
+	return (0);
 }
 
 
