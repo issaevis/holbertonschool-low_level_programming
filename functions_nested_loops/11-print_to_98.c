@@ -22,11 +22,11 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-		printf("\n");	
+		printf("\n");
 	}
 	else if (n == 98)
 		printf("98\n");
-		
+
 	else
 	{
 		for (i = n ; i <= 98 ; i++)
@@ -37,6 +37,6 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-		printf("\n");	
+		printf("\n");
 	}
 }
