@@ -1,6 +1,6 @@
 /**
  * print_square- prints a square
- * @n: how big the square is
+ * @size: how big the square is
  *
  *
  * Return: returns nothing to the main
@@ -11,6 +11,12 @@
 void print_square(int size)
 {
 	int i, j;
+
+	if (size <= 0)
+	{
+		_putchar('\n');
+		return;
+	}
 
 	for (i = 0 ; i < size ; i++)
 	{
