@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	long int nextNum, num1 = 0, num2 = 1;
 
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i <= 51; i++)
 	{
 		if (i <= 1)
 		{
@@ -24,7 +24,7 @@ int main(void)
 			num1 = num2;
 			num2 = nextNum;
 		}
-		if (nextNum == 12586269025)
+		if (nextNum == 20365011074)
 		{
 			printf("%ld\n", nextNum);
 			return (0);
