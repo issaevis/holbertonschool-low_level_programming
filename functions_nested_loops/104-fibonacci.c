@@ -10,8 +10,8 @@
 int main(void)
 {
 	int i, num1 = 0, num2 = 1, nextNum;
-	
-	for (i = 1; i < 100; i++) 
+
+	for (i = 1; i < 100; i++)
 	{
 		if (i <= 1)
 		{
