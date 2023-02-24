@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	int i, num1 = 0, num2 = 1, nextNum;
+	int i;
+	long long int nextNum ,num1 = 0, num2 = 1;
 
 	for (i = 1; i < 100; i++)
 	{
@@ -23,7 +24,7 @@ int main(void)
 			num1 = num2;
 			num2 = nextNum;
 		}
-		printf("%d ", nextNum);
+		printf("%lld ", nextNum);
 	}
 	printf("\n");
 	return (0);
