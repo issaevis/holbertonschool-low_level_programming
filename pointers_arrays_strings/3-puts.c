@@ -1,6 +1,6 @@
 /**
  * _puts- prints a string
- * @s: the address of a string
+ * @str: the address of a string
  *
  * Return: returns nothing to the main
  */
@@ -9,7 +9,7 @@
 
 void _puts(char *str)
 {
-	int i = 0, j; 
+	int i = 0, j;
 
 	while (str[i] != '\0')
 	{
