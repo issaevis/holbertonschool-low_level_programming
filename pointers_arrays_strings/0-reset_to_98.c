@@ -1,6 +1,6 @@
 /**
- * print_square- prints a square
- * @size: how big the square is
+ * reset_to_98- changes a number to 98
+ * @n: the address of an int
  *
  *
  * Return: returns nothing to the main
