@@ -16,7 +16,7 @@ void _puts(char *str)
 		i++;
 	}
 
-	j = i;
+	j = i - 1;
 
 	for (i = 0 ; i <= j ; i++)
 	{
