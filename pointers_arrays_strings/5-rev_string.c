@@ -1,5 +1,5 @@
 /**
- * print_rev- prints a string in reverse order
+ * rev_string- prints a string in reverse order
  * @s: the address of a string
  *
  * Return: returns nothing to the main
