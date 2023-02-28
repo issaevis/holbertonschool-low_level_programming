@@ -18,8 +18,8 @@ void rev_string(char *s)
 		i++;
 		len = i;
 	}
-	
-	if (len == ' ')
+
+	if (len = 1 && s[len - 1] == ' ')
 	{
 		_putchar('\n');
 		return;
