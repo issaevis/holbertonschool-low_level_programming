@@ -19,11 +19,12 @@ void rev_string(char *s)
 		len = i;
 	}
 
-	if (len = 1 && s[len - 1] == ' ')
+	if (len =0)
 	{
 		_putchar('\n');
 		return;
-	}
+	}	
+
 	j = len - 1;
 	i = 0;
 
