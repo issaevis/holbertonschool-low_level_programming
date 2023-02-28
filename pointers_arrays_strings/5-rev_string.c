@@ -16,14 +16,15 @@ void rev_string(char *s)
 	while (s[i] != '\0')
 	{
 		i++;
-		len = i;
 	}
+	len = i;
+
 
 	if (len == 0)
 	{
-		_putchar('\n');
+
 		return;
-	}	
+	}
 
 	j = len - 1;
 	i = 0;
