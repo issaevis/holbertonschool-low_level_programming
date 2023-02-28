@@ -19,7 +19,7 @@ void rev_string(char *s)
 		len = i;
 	}
 
-	if (len =0)
+	if (len == 0)
 	{
 		_putchar('\n');
 		return;
