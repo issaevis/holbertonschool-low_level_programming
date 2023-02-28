@@ -18,7 +18,12 @@ void rev_string(char *s)
 		i++;
 		len = i;
 	}
-
+	
+	if (len == ' ')
+	{
+		_putchar('\n');
+		return;
+	}
 	j = len - 1;
 	i = 0;
 
