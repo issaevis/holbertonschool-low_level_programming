@@ -1,6 +1,9 @@
 /**
- * _atoi- converts a string to an integer
- * @s: the address of the string 
+ * _strncat- adds two strings for a set ammount of characters
+ * @dest: the address of the dest string
+ * @src:the address of the src string
+ * @n: how much of the src string should be added
+ *
  *
  * Return: returns an int to the main
  */
