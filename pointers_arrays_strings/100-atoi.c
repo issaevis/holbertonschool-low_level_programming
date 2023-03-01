@@ -10,7 +10,8 @@
 
 int _atoi(char *s)
 {
-	int length, i, sign, flag, num, j;
+	int length, i, sign, flag, j;
+	unsigned int num;
 
 	length = num = flag = j = 0;
 	sign = 1;
