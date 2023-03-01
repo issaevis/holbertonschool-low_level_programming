@@ -1,6 +1,6 @@
 /**
  * _atoi- converts a string to an integer
- * @s: the address of the string 
+ * @s: the address of the string
  *
  * Return: returns an int to the main
  */
@@ -35,7 +35,7 @@ int _atoi(char *s)
 			while (s[i] >= '0' && s[i] <= '9')
 			{
 				num = num * 10 + (s[i] - '0');
-				i++;	
+				i++;
 			}
 		return (sign * num);
 		}
