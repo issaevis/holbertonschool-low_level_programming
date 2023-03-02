@@ -1,11 +1,11 @@
 /**
- * _strncat- adds two strings for a set ammount of characters
+ * _strncpy- copies a string into another string
  * @dest: the address of the dest string
  * @src:the address of the src string
  * @n: how much of the src string should be added
  *
  *
- * Return: returns an int to the main
+ * Return: returns a string to the main
  */
 
 #include "main.h"
@@ -18,6 +18,6 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	for ( ; i < n; i++)
 		dest[i] = '\0';
-	return dest;
+	return (dest);
 
 }
