@@ -9,9 +9,18 @@
 
 #include "main.h"
 #include <stddef.h>
+
 char *_strchr(char *s, char c)
 {
-	int i;
+	int i, size;
+
+	size = 0;
+	while (s[size] != '\0')
+	{
+		size++;
+	}
+	if (s[size] == c)
+		return (&s[size]);
 
 	for (i = 0 ; s[i] != '\0' ; i++)
 	{
@@ -20,5 +29,6 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 		}
 	}
+
 	return (NULL);
 }
