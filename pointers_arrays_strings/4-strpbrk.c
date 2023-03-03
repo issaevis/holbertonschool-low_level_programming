@@ -1,10 +1,10 @@
 /**
- * _strspn- function that gets the length of prefix substring
+ * _strpbrk- searches string for any of a set of bytes
  * @s: the string we are using
- * @accept: the string we  are using to prefix
+ * @accept: the string we are using to check
  *
  *
- * Return: returns an unsigned int to the main
+ * Return: returns an address to the main
  */
 
 #include "main.h"
