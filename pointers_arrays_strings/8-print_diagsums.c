@@ -1,7 +1,7 @@
 /**
- * print_chessboard- prints a chessboard
- * @a: the length of the first index of the 2D array
- *
+ * print_diagsums- prints the sum of the diagonals in a 2d array
+ * @a: the 2d array passed as a 1d array
+ * @size: size of the array
  *
  * Return: returns nothing to the main
  */
