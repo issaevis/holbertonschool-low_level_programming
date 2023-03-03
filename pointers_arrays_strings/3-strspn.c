@@ -1,7 +1,7 @@
 /**
  * _strspn- function that gets the length of prefix substring
  * @s: the string we are using
- * @c: the character we need to find
+ * @accept: the string we  are using to prefix
  *
  *
  * Return: returns an unsigned int to the main
