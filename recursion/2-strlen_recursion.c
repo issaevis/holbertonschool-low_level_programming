@@ -1,9 +1,9 @@
 /**
- * _print_rev_recursion- uses recursion to print a string in reverse
- * @s: the string we need to print
+ * _strlen_recursion- uses recursion to find the length of a string
+ * @s: the string we need to find the length of
  *
  *
- * Return: returns nothing to the main
+ * Return: returns an int to the main
  */
 
 #include "main.h"
