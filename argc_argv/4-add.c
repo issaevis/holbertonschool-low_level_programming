@@ -50,9 +50,11 @@ int main(int argc, char *argv[])
 
 int is_num(char *s)
 {
-	int i;
+	int i, size;
 
-	for (i = 0; i < strlen(s); i++)
+	size = strlen(s);
+
+	for (i = 0; i < size; i++)
 	{
 		if (s[i] >= '0' && s[i] <= '9')
 			continue;
