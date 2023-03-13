@@ -13,16 +13,25 @@ char *str_concat(char *s1, char *s2)
 {
 	int i = 0, index, so1, so2;
 	char *s;
+	
 
-	while (s1[i] != '\0')
-		i++;
-	so1 = i;
+	if(s1 == NULL)
+		so1 = 0;
+	else
+	{
+		while (s1[i] != '\0')
+			i++;
+		so1 = i;
+	}
 	i = 0;
-
+	if(s2 == NULL)
+		so2 = 0;
+	else
+	{
 	while (s2[i] != '\0')
 		i++;
 	so2 = i;
-
+	}
 	s = malloc(sizeof(char) * (so1 + so2 + 1));
 	if (s == NULL)
 		return (NULL);
