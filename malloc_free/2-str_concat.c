@@ -13,9 +13,8 @@ char *str_concat(char *s1, char *s2)
 {
 	int i = 0, index, so1, so2;
 	char *s;
-	
 
-	if(s1 == NULL)
+	if (s1 == NULL)
 		so1 = 0;
 	else
 	{
@@ -24,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 		so1 = i;
 	}
 	i = 0;
-	if(s2 == NULL)
+	if (s2 == NULL)
 		so2 = 0;
 	else
 	{
