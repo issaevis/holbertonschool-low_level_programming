@@ -1,9 +1,9 @@
 /**
- * alloc_grid- returns a pointer to a 2d array of ints
- * @width: parameter one
- * @height: parameter two
+ * free_grid- frees a 2d array's dynamic memory
+ * @height: parameter one
+ * @grid: the 2d array
  *
- * Return: returns an int pointer
+ * Return: returns nothing to the main
  */
 
 #include <stdlib.h>
