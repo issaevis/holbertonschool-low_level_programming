@@ -1,10 +1,9 @@
 /**
- * string_nconcat- creates a string with the content of two other strings
- * @n: the number of bytes we want to add from s2
- * @s1: the first string
- * @s2: the second string
+ * _calloc- allocates memory based on the two parameters
+ * @nmemb: the number of elements
+ * @size: the size in bytes
  *
- * Return: returns the first address of the new string
+ * Return: ??returns a void array to the main??
  */
 
 #include <stdlib.h>
