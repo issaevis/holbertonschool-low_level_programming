@@ -9,13 +9,11 @@
  * Return: returns nothing to the main
  */
 
+#include "dog.h"
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog doggy;
-
-	doggy.name = name;
-	doggy.age = age;
-	doggy.owner = owner;
-
-	d = doggy;
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
