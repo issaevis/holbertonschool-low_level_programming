@@ -7,7 +7,7 @@
  * @age: A double as age
  * @owner: A string as the owner
  *
- * Description: This struct defines a new datatype 
+ * Description: This struct defines a new datatype
  * with two strings and one double
  */
 
