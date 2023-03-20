@@ -4,16 +4,16 @@
 /**
  * struct dog - Defines a struct called dog
  * @name: A string as a name
- * @age: An int as age
+ * @age: A double as age
  * @owner: A string as the owner
  *
- * Description: This struct defines a new datatype with two strings and one int
+ * Description: This struct defines a new datatype with two strings and one double
  */
 
 struct dog
 {
 	char *name;
-	int age;
+	double age;
 	char *owner;
 }
 
