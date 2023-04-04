@@ -3,12 +3,11 @@
 #include "lists.h"
 
 /**
- * add_node- adds a node at the beggining of the linked list
+ * free_list- frees a linked list
  *
  * @head: the head of the linked list
- * @str: the string we add
  *
- * Return: returns the address of new node
+ * Return: returns nothing
  */
 
 void free_list(list_t *head)
