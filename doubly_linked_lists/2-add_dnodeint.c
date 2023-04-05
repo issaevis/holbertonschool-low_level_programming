@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * add_dlistint- adds a new node at the beggining of the doubly linked list
+ * add_dnodeint- adds a new node at the beggining of the doubly linked list
  *
  * @head: the head of the linked list
  * @n: the data we add to the node
