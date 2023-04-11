@@ -5,18 +5,23 @@
 #include <fcntl.h>
 
 /**
+ * read_textfile- Reads a textfile and displays it using the
+ * open, read and write functions
  *
+ * @filename: the name of the file we print from
+ * @letters: the size of how many bytes (chars) we want to print
  *
+ * Return: Returns signed size_t that has stored the number of printed chars
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd, f_read, f_write;
-	char* text;
+	char *text;
 
 	if (filename == NULL)
 		return (0);
-	
+
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
