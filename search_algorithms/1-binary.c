@@ -9,7 +9,7 @@
  *		 or -1 if it ends up not finding it
 */
 
-#include "main.h"
+#include "search_algos.h"
 
 int binary_search(int *array, size_t size, int value)
 {
